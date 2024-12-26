@@ -1,0 +1,288 @@
+/* MGMT88 theme colors start **********************************************************************************/
+.sidebar-wrapper .sidebar-default-nav .metismenu a:hover,
+.sidebar-wrapper .sidebar-default-nav .metismenu a:focus,
+.sidebar-wrapper .sidebar-default-nav .metismenu a:active,
+.sidebar-wrapper .sidebar-default-nav .metismenu .mm-active > a,
+.sidebar-store-default-nav-a {
+  color: #0d677c;
+  text-decoration: none;
+  background: #c2f4f5;
+  /* font-weight: bold; */
+}
+
+/* sidebar nav > bulletin ----------------------------------------------*/
+.mm-active > .sidebar-store-bulletin-nav-a,
+.sidebar-wrapper .metismenu .sidebar-store-bulletin-nav a:hover,
+.sidebar-wrapper .metismenu .sidebar-store-bulletin-nav a:focus,
+.sidebar-wrapper .metismenu .sidebar-store-bulletin-nav a:active,
+.sidebar-wrapper .metismenu .sidebar-store-bulletin-nav .mm-active > a {
+  color: #0d677c !important;
+  background: #c2f4f5 !important;
+}
+
+.sidebar-store-bulletin-nav > a,
+.sidebar-store-bulletin-nav ul li > a,
+.sidebar-store-bulletin-nav ul li ul li > a {
+  color: #0d677c !important;
+}
+
+/* sidebar nav > operations ----------------------------------------------*/
+.bg-light-custom-operations,
+.mm-active > .sidebar-store-operations-nav-a,
+.sidebar-wrapper .metismenu .sidebar-store-operations-nav a:hover,
+.sidebar-wrapper .metismenu .sidebar-store-operations-nav a:focus,
+.sidebar-wrapper .metismenu .sidebar-store-operations-nav a:active,
+.sidebar-wrapper .metismenu .sidebar-store-operations-nav .mm-active > a {
+  color: #34623d;
+  background: #c8f4d2 !important;
+  border: 1px solid #c8f4d2 !important;
+}
+.text-custom-operations,
+.sidebar-store-operations-nav > a,
+.sidebar-store-operations-nav ul li > a,
+.sidebar-store-operations-nav ul li ul li > a {
+  color: #34623d !important;
+}
+
+.nav-custom-operations.nav-tabs .nav-link {
+    margin-bottom: calc(-1* var(--bs-nav-tabs-border-width));
+    border: var(--bs-nav-tabs-border-width) solid transparent;
+    border-top-left-radius: var(--bs-nav-tabs-border-radius);
+    border-top-right-radius: var(--bs-nav-tabs-border-radius);
+}
+.nav-link-custom-operations {
+    color: #8338EC !important;
+}
+
+.nav-custom-operations.nav-tabs .nav-link.active {
+    color: #34623D !important;
+    border-color: #34623D #34623D #fff !important;
+}
+
+.nav-custom-operations.nav-tabs {
+    --bs-nav-tabs-border-color: #34623D;
+    border-bottom: var(--bs-nav-tabs-border-width) solid #34623D;
+}
+
+/* sidebar nav > financial-report ----------------------------------------------*/
+.mm-active > .sidebar-store-financial-report-nav-a,
+.sidebar-wrapper .metismenu .sidebar-store-financial-report-nav a:hover,
+.sidebar-wrapper .metismenu .sidebar-store-financial-report-nav a:focus,
+.sidebar-wrapper .metismenu .sidebar-store-financial-report-nav a:active,
+.sidebar-wrapper .metismenu .sidebar-store-financial-report-nav .mm-active > a {
+  color: #66660c !important;;
+  background: #fafabe !important;
+}
+.text-custom-financial-report,
+.sidebar-store-financial-report-nav > a,
+.sidebar-store-financial-report-nav ul li > a,
+.sidebar-store-financial-report-nav ul li ul li > a {
+  color: #66660c;
+}
+.text-custom-financial-report2 {
+    color: #ffc107 !important;
+}
+.bg-light-custom-financial-report {
+  background: #ffc1071c !important;
+}
+.btn-custom-financial-report {
+  color: white !important;
+  background: #ffc107 !important;
+}
+.btn-custom-financial-report:hover {
+  color: white !important;
+  background: #c39305 !important;
+}
+
+/* sidebar nav > clinical ----------------------------------------------*/
+.bg-light-custom-clinical,
+.mm-active > .sidebar-store-clinical-nav-a,
+.sidebar-wrapper .metismenu .sidebar-store-clinical-nav a:hover,
+.sidebar-wrapper .metismenu .sidebar-store-clinical-nav a:focus,
+.sidebar-wrapper .metismenu .sidebar-store-clinical-nav a:active,
+.sidebar-wrapper .metismenu .sidebar-store-clinical-nav .mm-active > a {
+  color: #5d5069;
+  background: #e4cdf8 !important;
+}
+.text-custom-clinical,
+.sidebar-store-clinical-nav > a,
+.sidebar-store-clinical-nav ul li > a,
+.sidebar-store-clinical-nav ul li ul li > a {
+  color: #5d5069 !important;
+}
+
+/* sidebar nav > procurement ----------------------------------------------*/
+.bg-light-custom-procurement,
+.mm-active > .sidebar-store-procurement-nav-a,
+.sidebar-wrapper .metismenu .sidebar-store-procurement-nav a:hover,
+.sidebar-wrapper .metismenu .sidebar-store-procurement-nav a:focus,
+.sidebar-wrapper .metismenu .sidebar-store-procurement-nav a:active,
+.sidebar-wrapper .metismenu .sidebar-store-procurement-nav .mm-active > a {
+  color: #a46c26;
+  background: #ffdcb1 !important;
+}
+.text-custom-procurement,
+.sidebar-store-procurement-nav > a,
+.sidebar-store-procurement-nav ul li > a,
+.sidebar-store-procurement-nav ul li ul li > a {
+  color: #a46c26 !important;
+}
+
+/* sidebar nav > data-insight ----------------------------------------------*/
+.bg-light-custom-data-insight,
+.mm-active > .sidebar-store-data-insight-nav-a,
+.sidebar-wrapper .metismenu .sidebar-store-data-insight-nav a:hover,
+.sidebar-wrapper .metismenu .sidebar-store-data-insight-nav a:focus,
+.sidebar-wrapper .metismenu .sidebar-store-data-insight-nav a:active,
+.sidebar-wrapper .metismenu .sidebar-store-data-insight-nav .mm-active > a {
+  color: #ab404b;
+  background: #ffc4ca !important;
+}
+.text-custom-data-insight,
+.sidebar-store-data-insight-nav > a,
+.sidebar-store-data-insight-nav ul li > a,
+.sidebar-store-data-insight-nav ul li ul li > a {
+  color: #ab404b !important;
+}
+
+/* sidebar nav > cnr ----------------------------------------------*/
+.bg-light-custom-cnr,
+.mm-active > .sidebar-store-cnr-nav-a,
+.sidebar-wrapper .metismenu .sidebar-store-cnr-nav a:hover,
+.sidebar-wrapper .metismenu .sidebar-store-cnr-nav a:focus,
+.sidebar-wrapper .metismenu .sidebar-store-cnr-nav a:active,
+.sidebar-wrapper .metismenu .sidebar-store-cnr-nav .mm-active > a {
+  color: #66660c;
+  background: #fafabe !important;
+}
+.text-custom-cnr,
+.sidebar-store-cnr-nav > a,
+.sidebar-store-cnr-nav ul li > a,
+.sidebar-store-cnr-nav ul li ul li > a {
+  color: #66660c !important;
+}
+
+/* sidebar nav > escalation ----------------------------------------------*/
+.bg-light-custom-escalation,
+.mm-active > .sidebar-store-escalation-nav-a,
+.sidebar-wrapper .metismenu .sidebar-store-escalation-nav a:hover,
+.sidebar-wrapper .metismenu .sidebar-store-escalation-nav a:focus,
+.sidebar-wrapper .metismenu .sidebar-store-escalation-nav a:active,
+.sidebar-wrapper .metismenu .sidebar-store-escalation-nav .mm-active > a {
+  color: #363a86;
+  background: #c7caff !important;
+}
+.text-custom-escalation,
+.sidebar-store-escalation-nav > a,
+.sidebar-store-escalation-nav ul li > a,
+.sidebar-store-escalation-nav ul li ul li > a {
+  color: #363a86 !important;
+}
+
+/* sidebar nav > sop ----------------------------------------------*/
+.mm-active > .sidebar-store-sop-nav-a,
+.sidebar-wrapper .metismenu .sidebar-store-sop-nav a:hover,
+.sidebar-wrapper .metismenu .sidebar-store-sop-nav a:focus,
+.sidebar-wrapper .metismenu .sidebar-store-sop-nav a:active,
+.sidebar-wrapper .metismenu .sidebar-store-sop-nav .mm-active > a {
+  color: #b834af;
+  background: #ffe4fd !important;
+}
+.text-custom-sop,
+.sidebar-store-sop-nav > a,
+.sidebar-store-sop-nav ul li > a,
+.sidebar-store-sop-nav ul li ul li > a {
+  color: #b834af !important;
+}
+.bg-light-custom-sop {
+  background: #b834af3b !important;
+}
+.btn-custom-sop {
+  background-color: #b834af;
+  color: white;
+}
+.btn-custom-sop:hover {
+  background-color: #a12e99;
+  color: white;
+}
+
+/* sidebar nav > eod-register-report ----------------------------------------------*/
+.bg-light-custom-eod,
+.mm-active > .sidebar-store-eod-register-report-nav-a,
+.sidebar-wrapper .metismenu .sidebar-store-eod-register-report-nav a:hover,
+.sidebar-wrapper .metismenu .sidebar-store-eod-register-report-nav a:focus,
+.sidebar-wrapper .metismenu .sidebar-store-eod-register-report-nav a:active,
+.sidebar-wrapper
+  .metismenu
+  .sidebar-store-eod-register-report-nav
+  .mm-active
+  > a {
+  color: #0d677c;
+  background: #c2f4f5 !important;
+}
+.text-custom-eod,
+.sidebar-store-eod-register-report-nav > a,
+.sidebar-store-eod-register-report-nav ul li > a,
+.sidebar-store-eod-register-report-nav ul li ul li > a {
+  color: #0d677c !important;
+}
+
+/* sidebar nav > inventory-reconciliation ----------------------------------------------*/
+.bg-light-custom-inventory,
+.mm-active > .sidebar-store-inventory-reconciliation-nav-a,
+.sidebar-wrapper .metismenu .sidebar-store-inventory-reconciliation-nav a:hover,
+.sidebar-wrapper .metismenu .sidebar-store-inventory-reconciliation-nav a:focus,
+.sidebar-wrapper
+  .metismenu
+  .sidebar-store-inventory-reconciliation-nav
+  a:active,
+.sidebar-wrapper
+  .metismenu
+  .sidebar-store-inventory-reconciliation-nav
+  .mm-active
+  > a {
+  color: #34623d;
+  background: #c8f4d2 !important;
+}
+.text-custom-inventory,
+.sidebar-store-inventory-reconciliation-nav > a,
+.sidebar-store-inventory-reconciliation-nav ul li > a,
+.sidebar-store-inventory-reconciliation-nav ul li ul li > a {
+  color: #34623d !important;
+}
+
+/* sidebar nav > hr ----------------------------------------------*/
+.bg-light-custom-hr,
+.mm-active > .sidebar-store-hr-nav-a,
+.sidebar-wrapper .metismenu .sidebar-store-hr-nav a:hover,
+.sidebar-wrapper .metismenu .sidebar-store-hr-nav a:focus,
+.sidebar-wrapper .metismenu .sidebar-store-hr-nav a:active,
+.sidebar-wrapper .metismenu .sidebar-store-hr-nav .mm-active > a {
+  color: #b834af;
+  background: #e5cdf9 !important;
+}
+.text-custom-hr,
+.sidebar-store-hr-nav > a,
+.sidebar-store-hr-nav ul li > a,
+.sidebar-store-hr-nav ul li ul li > a {
+  color: #b834af !important;
+}
+
+/* marketing nav > marketing ----------------------------------------------*/
+.bg-light-custom-marketing,
+.mm-active > .sidebar-store-marketing-nav-a,
+.sidebar-wrapper .metismenu .sidebar-store-marketing-nav a:hover,
+.sidebar-wrapper .metismenu .sidebar-store-marketing-nav a:focus,
+.sidebar-wrapper .metismenu .sidebar-store-marketing-nav a:active,
+.sidebar-wrapper .metismenu .sidebar-store-marketing-nav .mm-active > a {
+  color: #5e17eb;
+  background: #c7caff !important;
+}
+.text-custom-marketing,
+.sidebar-store-marketing-nav > a,
+.sidebar-store-marketing-nav ul li > a,
+.sidebar-store-marketing-nav ul li ul li > a {
+  color: #5e17eb !important;
+}
+
+/* theme colors end **********************************************************************************/

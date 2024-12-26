@@ -1,0 +1,84 @@
+/* CEO Dashboards - starts */
+#evergreen-widget-gross-sales .widgets-icons {
+    width: 60px;
+    height: 60px;
+    background: #FD8EAD;
+}
+#evergreen-widget-collected-payments .widgets-icons {
+    width: 60px;
+    height: 60px;
+    background: #21CAF1;
+}
+#evergreen-widget-account-receivables .widgets-icons {
+    width: 60px;
+    height: 60px;
+    background: #FDB202;
+}
+#evergreen-widget-revenue-per-employee .widgets-icons {
+    width: 60px;
+    height: 60px;
+    background: #5ECE43;
+}
+.text-custom-evergreen {
+    color: #F1237B;
+}
+.bg-gradient-danger {
+    background: linear-gradient(135deg, #FFFFFF, #FEE4FD);
+    border-color: #FD8EAD;
+    border-width: 1px;
+    border-style: solid;
+}
+.bg-gradient-info {
+    background: linear-gradient(135deg, #FFFFFF, #D6F6FF);
+    border-color: #21CAF1;
+    border-width: 1px;
+    border-style: solid;
+}
+.bg-gradient-warning {
+    background: linear-gradient(135deg, #FFFFFF, #FDE69A);
+    border-color: #FDB202;
+    border-width: 1px;
+    border-style: solid;
+}
+.bg-gradient-success {
+    background: linear-gradient(135deg, #FFFFFF, #DCFFE4);
+    border-color: #5ECE43;
+    border-width: 1px;
+    border-style: solid;
+}
+.bg-custom-danger {
+    border-color: #FD8EAD;
+    border-width: 1px;
+    border-style: solid;
+}
+.bg-custom-info {
+    border-color: #21CAF1;
+    border-width: 1px;
+    border-style: solid;
+}
+.bg-custom-warning {
+    border-color: #FDB202;
+    border-width: 1px;
+    border-style: solid;
+}
+.bg-custom-success {
+    border-color: #5ECE43;
+    border-width: 1px;
+    border-style: solid;
+}
+.bg-custom-operations {
+    border-color: #27CC3A;
+    border-width: 1px;
+    border-style: solid;
+}
+.bg-custom-operations-revenue-and-analysis {
+    border-color: #C8F4D2;
+    border-width: 1px;
+    border-style: solid;
+}
+.bg-custom-operations-patient-growth-and-shrinkage {
+    border-color: #B3EBFA;
+    border-width: 1px;
+    border-style: solid;
+}
+/* CEO Dashboards - ends */
